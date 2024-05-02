@@ -1,34 +1,23 @@
-import React from 'react';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {SplashScreen, SignIn, SignUp, Home} from '../pages';
+// // Router/index.ts
+// import React from 'react';
+// import {NavigationContainer} from '@react-navigation/native';
+// import {createNativeStackNavigator} from '@react-navigation/native-stack';
+// import Splash from '../src/pages/Splash';
 
-const Stack = createNativeStackNavigator();
+// const Stack = createNativeStackNavigator();
 
-const index = () => {
-  return (
-    <Stack.Navigator>
-      <Stack.Screen
-        name="SplashScreen"
-        component={SplashScreen}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
-        name="SignIn"
-        component={SignIn}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
-        name="SignUp"
-        component={SignUp}
-        options={{headerShown: false}}
-      />
-      <Stack.Screen
-        name="Home"
-        component={Home}
-        options={{headerShown: false}}
-      />
-    </Stack.Navigator>
-  );
-};
+// const Router = () => {
+//   return (
+//     <NavigationContainer>
+//       <Stack.Navigator>
+//         <Stack.Screen
+//           name="SplashScreen"
+//           component={Splash}
+//           options={{headerShown: false}}
+//         />
+//       </Stack.Navigator>
+//     </NavigationContainer>
+//   );
+// };
 
-export default index;
+// export default Router;
